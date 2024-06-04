@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto">
     <div class="my-12">
-      <div class="flex justify-between ">
-        <h2 class="text-3xl px-8 ">View our projects</h2>
-        <div class="flex gap-4">
+      <div class="flex justify-between mx-24">
+        <h2 class="text-3xl ">View our projects</h2>
+        <div class="flex gap-2 mx-6">
           <button>View More</button>
           <svg class="my-3"
             xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@
       </div>
 
       <div class="flex px-24 py-8">
-        <div>
-            <img src="/img/card1.png" alt="">
+        <div class="bg:[url('./public/img/hero.png')] bg-no-repeat bg-cover">
+            <img  src="/img/card1.png" alt="">
         </div>
         <div class="gap-4">
             <img  class="px-4" src="/img/card2.png" alt="">

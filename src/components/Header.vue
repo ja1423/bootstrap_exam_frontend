@@ -4,8 +4,8 @@
       <div class="mx-10 my-8">
         <img src="/img/logo.png" alt="" />
       </div>
-      <div class="mx-auto my-7">
-        <ul class="gap-8 flex items-center">
+      <div class="mx-auto my-7 ">
+        <ul class="gap-8 flex items-center mx-8">
           <li>
             <a class="text-[#BBBBCB] hover:text-white"  href="#">Home</a></li>
             <li><a class="text-[#BBBBCB] hover:text-white" href="#">About us</a></li>

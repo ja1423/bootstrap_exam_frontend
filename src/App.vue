@@ -2,6 +2,8 @@
 import Header from "./components/Header.vue"
 import Intro from "./components/Intro.vue"
 import Projects from "./components/Projects.vue"
+import Features from "./components/Features.vue"
+import Clients from "./components/Clients.vue"
 </script>
 
 <template>
@@ -13,8 +15,16 @@ import Projects from "./components/Projects.vue"
 
       <div>
         <Projects />
+        
+      </div>
+
+      <div class="bg-[#F4F6FC] ">
+        <Features />
       </div>
  
+ <div>
+  <Clients />
+ </div>
 
  
 </template>

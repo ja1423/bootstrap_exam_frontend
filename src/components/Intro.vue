@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="bg-[#1C1E53] flex h-[700px]  items-center ">
+    <div class="bg-[#1C1E53] flex py-[126px]  items-center  justify-between">
       <div class="left_side gap-5 mx-auto  ">
         <h1 class="font-bold text-[54px] text-white mb-6 max-w-[450px]">
           Building stellar websites for early startups

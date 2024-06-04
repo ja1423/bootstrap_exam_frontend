@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue"
 import Intro from "./components/Intro.vue"
+import Projects from "./components/Projects.vue"
 </script>
 
 <template>
@@ -8,6 +9,10 @@ import Intro from "./components/Intro.vue"
   <Header/>
   
         <Intro />
+      </div>
+
+      <div>
+        <Projects />
       </div>
  
 

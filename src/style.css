@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  @apply w-[1600px] mx-auto;
-}
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;

@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="bg-[#F4F5F5] w-[1280px] h-[376px] mx-12 py-12">
+    <div class="bg-[#F4F5F5] w-[1280px] h-[376px]  py-12">
       <div class="flex gap-12 mx-12">
         <div class="gap-6">
           <h1 class="text-3xl font-semibold">Goal focussed</h1>
@@ -27,7 +27,7 @@
     
   </div>
    <div class="container mx-auto">
-        <img class="mx-12" src="/img/teacher.png" alt="">
+        <img class="" src="/img/teacher.png" alt="">
       </div>
 </template>
 

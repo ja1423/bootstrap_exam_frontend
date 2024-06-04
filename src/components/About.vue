@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex py-24 gap-12 px-24">
+    <div class="flex py-24 gap-12 px-12">
       <div class="gap-8  ">
         <p class="font-semibold">About us</p>
         <h1 class="font-bold text-4xl max-w-[500px] py-3">Our designs solve problems</h1>

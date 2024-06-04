@@ -1,10 +1,10 @@
 <template>
     <div class="container mx-auto">
-        <div class=" px-24">
-            <div class="py-12 text-center">
-                <h1 class="font-bold text-3xl px-2">Meet our team</h1>
+        <div class=" px-12">
+            <div class="py-12 text-center ">
+                <h1 class="font-bold text-3xl ">Meet our team</h1>
             </div>
-            <div class="flex gap-8 py-12">
+            <div class="flex gap-8 py-12 px-12">
                 <div class="bg-white px-6 py-6 text-center">
                     <img src="/img/man1.png" alt="">
                     <h1 class="text-xl py-2">John Smith</h1>

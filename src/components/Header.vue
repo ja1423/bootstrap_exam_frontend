@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex bg-[#1C1E53] mx-auto h-[92px] ">
+    <div class="flex  mx-auto h-[92px] ">
       <div class="mx-10 my-8">
         <img src="/img/logo.png" alt="" />
       </div>

@@ -4,16 +4,13 @@ import Intro from "./components/Intro.vue"
 </script>
 
 <template>
-  <div>
-  <Header />
-  <div class="container mx-auto">
-      <div class="grid grid-cols-4 gap-x-7">
-        <Categories class="max-w-screen-md col-span-1 max-md:hidden" />
-        <Products class="col-span-3" />
+  <div  class=" bg-[#1C1E53]" >
+  <Header/>
+  
         <Intro />
       </div>
-    </div>
-  </div>
+ 
+
  
 </template>
 

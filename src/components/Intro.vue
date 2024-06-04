@@ -11,7 +11,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </p>
-        <div class="flex gap-5 mx-6 mt-8">
+        <div class="flex gap-5  mt-8">
           <button
             class="[230px] h-[64px] bg-[#FCD980] text-gray-800 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >

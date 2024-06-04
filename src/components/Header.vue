@@ -6,12 +6,11 @@
       </div>
       <div class="mx-auto my-7 ">
         <ul class="gap-8 flex items-center mx-8">
-          <li>
-            <a class="text-[#BBBBCB] hover:text-white"  href="#">Home</a></li>
-            <li><a class="text-[#BBBBCB] hover:text-white" href="#">About us</a></li>
-            <li><a class="text-[#BBBBCB] hover:text-white" href="#">Pricing</a></li>
-            <li><a class="text-[#BBBBCB] hover:text-white" href="#">Blogs</a></li>
-            <li><a class="text-[#BBBBCB] hover:text-white" href="#">Work</a></li>
+          <router-link to="/home" class="[&.router-link-active]:text-white">Home</router-link>
+                    <router-link to="/about" class="[&.router-link-active]:text-white text-slate-200">About us</router-link>
+                    <router-link to="/pricing" class="[&.router-link-active]:text-white">Pricing</router-link>
+                    <router-link to="/work" class="[&.router-link-active]:text-white">Work</router-link>
+                    <router-link to="/blog" class="[&.router-link-active]:text-white">Blog</router-link>
         
         </ul>
       </div>

@@ -1,26 +1,26 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex py-24 px-8 gap-12">
+    <div class="flex py-24 px-8 ">
       <div class="gap-5 mx-12 my-12">
         <h1 class="text-3xl font-semibold">What our clients say about us</h1>
         <p class="text-[#282938] text-sm max-w-[300px] py-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
         </p>
       </div>
-      <div class="px-16">
+      <div class="">
         <h2 class="font-semibold text-3xl max-w-[800px]">
           "The best agency we’ve worked with so far. They understand our product
           and are able to add new features with a great focus."
         </h2>
-        <div class="flex">
-          <div class="flex">
-            <img class="py-12 px-6" src="/img/jenny.png" alt="" />
-            <div class="py-10">
+        <div class="flex justify-between">
+          <div class="flex gap-4">
+            <img class="py-12 " src="/img/jenny.png" alt="" />
+            <div class="my-10">
               <h1 class="font-semibold text-xl">Jenny Wilson</h1>
               <p>Vice President</p>
             </div>
           </div>
-          <div class="flex mx-24 gap-4">
+          <div class="flex gap-4">
             <button class="rounded-full border py-5 my-8 px-6 hover:bg-[#5239FA] text-[#5239FA]">
               <svg
                 width="13"

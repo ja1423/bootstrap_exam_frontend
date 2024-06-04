@@ -1,6 +1,6 @@
 <template>
-  <div class="container  h-[1100px] mx-auto">
-    <div class="mx-auto">
+  <div class="container   mx-auto">
+    <div class="mx-auto ">
       <div class="items-center py-24">
         <p class="items-center mx-auto text-center">Features</p>
         <h2 class="mx-auto font-bold text-4xl max-w-[500px] text-center">

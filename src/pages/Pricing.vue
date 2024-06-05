@@ -5,6 +5,7 @@
 
 
 <Plans />
+<Questions />
 
 
 <div class=" bg-[#1C1E53]">
@@ -17,6 +18,7 @@
     import Header from "../components/Header.vue"
     import Footer from "../components/Footer.vue"
     import Plans from "../components/Plans.vue"
+    import Questions from "../components/Questions.vue"
 
 </script>
 

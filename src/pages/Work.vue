@@ -8,7 +8,9 @@
 <Portfolio />
 </div>
 
-
+<div>
+    <Together />
+</div>
 
 
 <div class=" bg-[#1C1E53]">
@@ -20,6 +22,7 @@
     import Header from "../components/Header.vue";
     import Footer from "../components/Footer.vue";
     import Portfolio from "../components/Portfolio.vue";
+    import Together from "../components/Together.vue";
 </script>
 
 <style scoped>

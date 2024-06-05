@@ -11,13 +11,13 @@
           </svg>
         </button>
       </div>
-      <div class="hidden md:flex mx-auto my-7">
-        <ul class="gap-8 flex items-center mx-8">
-          <router-link to="/home" class="[&.router-link-active]:text-white  hover:text-gray-400">Home</router-link>
-          <router-link to="/about" class="[&.router-link-active]:text-white  hover:text-gray-400">About us</router-link>
-          <router-link to="/pricing" class="[&.router-link-active]:text-white  hover:text-gray-400">Pricing</router-link>
-          <router-link to="/work" class="[&.router-link-active]:text-white  hover:text-gray-400">Work</router-link>
-          <router-link to="/blog" class="[&.router-link-active]:text-white  hover:text-gray-400">Blog</router-link>
+      <div class="hidden md:flex mx-auto my-7 px-12">
+        <ul class="gap-8 flex ">
+          <router-link to="/home" class="[&.router-link-active]:text-white  hover:text-gray-400 text-white">Home</router-link>
+          <router-link to="/about" class="[&.router-link-active]:text-white  hover:text-gray-400 text-white">About us</router-link>
+          <router-link to="/pricing" class="[&.router-link-active]:text-white  hover:text-gray-400 text-white">Pricing</router-link>
+          <router-link to="/work" class="[&.router-link-active]:text-white  hover:text-gray-400 text-white">Work</router-link>
+          <router-link to="/blog" class="[&.router-link-active]:text-white  hover:text-gray-400 text-white">Blog</router-link>
         </ul>
       </div>
       <div class="hidden md:block">

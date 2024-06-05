@@ -17,7 +17,7 @@
             View our work
           </router-link>
           <router-link
-            class="flex items-center gap-x-4 cursor-pointer w-full lg:w-auto justify-center lg:justify-start"
+            class="flex items-center gap-x-4 cursor-pointer w-full lg:w-auto justify-center lg:justify-start text-white py-4"
             to="/pricing"
           >
             View Pricing

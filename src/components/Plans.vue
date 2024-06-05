@@ -10,7 +10,7 @@
       </div>
 
       <div class="flex">
-        <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC]">
+        <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC] hover:shadow-xl">
           <div class="flex gap-8 px-6 py-8">
             <h1 class="font-bold text-2xl">$299</h1>
             <p class="text-[#2405F2]">Per Design</p>
@@ -44,16 +44,17 @@
             </div>
 
             <div class="justify-center mx-auto">
-              <button
-                class="border bg-[#282938] rounded-full px-8 py-2 text-white hover:bg-white hover:text-[#282938]"
-              >
-                Get started
-              </button>
+              
+                <router-link
+          to="/Home"
+          class="[&.router-link-active]:text-white border bg-[#282938] rounded-full px-8 py-4 text-white hover:bg-white hover:text-[#282938]"
+        >Get started
+        </router-link>
             </div>
           </div>
         </div>
 
-         <div class="rounded-lg px-8 mx-2 my-12 bg-[#1C1E53]">
+         <div class="rounded-lg px-8 mx-2 my-12 bg-[#1C1E53] hover:shadow-xl">
           <div class="flex gap-8 px-6 py-8">
             <h1 class="font-bold text-2xl text-white">$399</h1>
             <p class="text-[#FCD980] ">Multi Design</p>
@@ -87,16 +88,17 @@
             </div>
 
             <div class="justify-center mx-auto my-12">
-              <button
-                class="border bg-[#FCD980] rounded-full px-8 py-2 text-white hover:bg-white hover:text-[#282938]"
-              >
-                Get started
-              </button>
+              
+              <router-link
+          to="/Home"
+          class="[&.router-link-active]:text-white border bg-[#FCD980] rounded-full px-8 py-4 text-white hover:bg-white hover:text-[#282938]"
+          >Get started</router-link
+        >
             </div>
           </div>
         </div>
 
-         <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC]">
+         <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC] hover:shadow-xl">
           <div class="flex gap-8 px-6 py-8">
             <h1 class="font-bold text-2xl ">$499 +</h1>
             <p class="text-[#1C1E53] ">Per Design</p>
@@ -134,11 +136,11 @@
             </div>
 
             <div class="justify-center mx-auto my-4 mb-12 ">
-              <button
-                class="border bg-[#282938] rounded-full px-8 py-2 text-white hover:bg-white hover:text-[#282938]"
-              >
-                Contact Us
-              </button>
+              <router-link
+          to="/Contact"
+          class="[&.router-link-active]:text-white hover:text-gray-400 border bg-[#282938] rounded-full py-3 px-8 text-white"
+          >Contact Us</router-link
+        >
             </div>
           </div>
         </div>

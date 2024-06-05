@@ -1,47 +1,44 @@
 <template>
   <div class="container mx-auto">
-    <div class="bg-[#1C1E53] flex py-[126px]  items-center  justify-between">
-      <div class="left_side gap-5 mx-auto  ">
-        <h1 class="font-bold text-[54px] text-white mb-6 max-w-[450px]">
+    <div class="bg-[#1C1E53] flex flex-col lg:flex-row py-14 items-center justify-between">
+      <div class="left_side gap-5 mx-auto text-center lg:text-left">
+        <h1 class="font-bold text-[32px] lg:text-[54px] text-white mb-6 max-w-[300px] lg:max-w-[450px] mx-auto lg:mx-0">
           Building stellar websites for early startups
         </h1>
-        <p
-          class="text-sm  tracking-widest font-medium text-white max-w-[500px] "
-        >
+        <p class="text-sm tracking-widest font-medium text-white max-w-[300px] lg:max-w-[500px] mx-auto lg:mx-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </p>
-        <div class="flex gap-5  mt-8">
-          <button
-            class="[230px] h-[64px] bg-[#FCD980] text-gray-800 font-bold py-2 px-4 rounded-full shadow-lg hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        <div class="flex flex-col lg:flex-row gap-5 mx-0 lg:mx-6 mt-8 items-center lg:items-start">
+          <router-link
+            class="hover:bg-[#FCD980] border border-[#FCD980] hover:text-[#1B1C2B] text-[#FCD980] py-2 lg:py-4 px-5 lg:px-14 rounded-full cursor-pointer w-full lg:w-auto text-center"
+            to="/works"
           >
             View our work
-          </button>
-          <div class="flex">
-            <button
-              class="w- text-[#FFFFFF] font-bold py-2 px-4 hover:text-gray-300 "
-            >
-              View Pricing
-            </button>
-            <svg class="my-6"
+          </router-link>
+          <router-link
+            class="flex items-center gap-x-4 cursor-pointer w-full lg:w-auto justify-center lg:justify-start"
+            to="/pricing"
+          >
+            View Pricing
+            <svg
+              class="animate-pulse"
               xmlns="http://www.w3.org/2000/svg"
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 512 512"
             >
               <path
-                fill="white"
-                fill-rule="evenodd"
-                d="M10.159 10.72a.75.75 0 1 0 1.06 1.06l3.25-3.25L15 8l-.53-.53l-3.25-3.25a.75.75 0 0 0-1.061 1.06l1.97 1.97H1.75a.75.75 0 1 0 0 1.5h10.379z"
-                clip-rule="evenodd"
+                fill="currentColor"
+                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z"
               />
             </svg>
-          </div>
+          </router-link>
         </div>
       </div>
-      <div class="right_side px-10">
-        '
-        <img src="/img/intro.png" alt="" />
+
+      <div class="right_side px-4 lg:px-10 mt-8 lg:mt-0">
+        <img src="/img/intro.png" alt="" class="w-full h-auto lg:w-auto lg:h-full"/>
       </div>
     </div>
   </div>

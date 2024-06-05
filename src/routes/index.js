@@ -22,11 +22,11 @@ const routes = [
                 name: 'pricing',
                 component: () => import('../pages/Pricing.vue')
             },
-        //     {
-        //         path: 'work',
-        //         name: 'work',
-        //         component: () => import('../pages/Work.vue')
-        //     },
+            {
+                path: 'work',
+                name: 'work',
+                component: () => import('../pages/Work.vue')
+            },
         //     {
         //         path: 'blog',
         //         name: 'blog',

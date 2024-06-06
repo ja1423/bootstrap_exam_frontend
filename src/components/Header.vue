@@ -21,9 +21,8 @@
         </ul>
       </div>
       <div class="hidden md:block">
-        <button class="bg-[#1C1E53] text-white px-7 py-3 rounded-full border my-4 mx-8 hover:bg-white hover:text-[#1C1E53]">
-          Contact Us
-        </button>
+        <router-link @click="closeMenu" to="/Contact" class="[&.router-link-active]:text-white bg-[#1C1E53] text-white px-7 py-3 rounded-full border my-4 mx-8 hover:bg-white hover:text-[#1C1E53]">Contact Us
+       </router-link>
       </div>
     </div>
     <div v-if="menuOpen" class="md:hidden">
@@ -33,9 +32,9 @@
         <router-link @click="closeMenu" to="/pricing" class="py-2 text-white hover:text-gray-400">Pricing</router-link>
         <router-link @click="closeMenu" to="/work" class="py-2 text-white hover:text-gray-400">Work</router-link>
         <router-link @click="closeMenu" to="/blog" class="py-2 text-white hover:text-gray-400">Blog</router-link>
-        <button class="bg-[#1C1E53] text-white px-7 py-3 rounded-full border my-4 mx-8 hover:bg-white hover:text-[#1C1E53]">
-          Contact Us
-        </button>
+        <router-link @click="closeMenu" to="/Contact" class="[&.router-link-active]:text-white bg-[#1C1E53] text-white px-7 py-3 rounded-full border my-4 mx-8 hover:bg-white hover:text-[#1C1E53]">Contact Us
+       </router-link>
+               
       </ul>
     </div>
   </div>

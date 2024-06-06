@@ -1,5 +1,4 @@
 <template>
-  <div class="bg-[#F4F6FC]">
     <div class="container mx-auto">
       <h3 class="text-[#282938] text-5xl leading-[64px] font-semibold text-center pt-[128px] pb-[48px]">Meet our team</h3>
 
@@ -24,7 +23,7 @@
       </div>
 
     </div>
-  </div>
+  
 </template>
 
 <script setup>

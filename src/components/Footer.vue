@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto h-auto md:h-[489px]  p-8 md:p-0">
     <div class="flex flex-col md:flex-row text-white">
-      <div class="flex flex-col gap-4 my-12 mx-6 md:mx-12">
+      <div class=" gap-4 my-16 mx-12 md:mx-12">
         <img src="/img/logo.png" alt="Company Logo" />
         <p class="text-sm max-w-[400px] my-6">
           We are always open to discuss your project and improve your online presence.
         </p>
-        <div class="flex flex-col md:flex-row w-full md:w-[517px] bg-[#FCD980] p-4 gap-4">
+        <div class="flex flex-col md:flex-row w-full md:w-[517px] bg-[#FCD980]  gap-4 px-3 py-6">
           <div class="flex-1">
             <h1 class="font-semibold">Email me at</h1>
             <p>contact@website.com</p>

@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <div class="my-12">
-      <div class="flex justify-between mx-24">
+      <div class="flex justify-between mb-6">
         <h2 class="text-3xl ">View our projects</h2>
         <div class="flex gap-2 mx-6">
           <button>View More</button>
@@ -96,11 +96,11 @@
         <div class="flex flex-col">
           <div class="w-60 md:h-40 h-20"></div>
           <div>
-            <h3 class="text-2xl font-semibold mb-4 max-w-48">
+            <h3 class="text-2xl font-semibold mb-8 max-w-48">
               Unisaas Website Design
             </h3>
             <router-link
-              class="flex items-center gap-x-4 cursor-pointer text-[#FCD980]"
+              class="flex items-center gap-x-4 cursor-pointer text-[#FCD980] mb-6"
               to="/pricing"
               >View Pricing
               <svg

@@ -27,16 +27,21 @@ const routes = [
                 name: 'work',
                 component: () => import('../pages/Work.vue')
             },
-        //     {
-        //         path: 'blog',
-        //         name: 'blog',
-        //         component: () => import('../pages/Blog.vue')
-        //     }, 
-        //     {
-        //        path: 'contact-us',
-        //        name: 'contact-us',
-        //        component: () => import('../pages/Contact.vue')
-        //    }
+            {
+                path: 'blog',
+                name: 'blog',
+                component: () => import('../pages/Blog.vue')
+            }, 
+            {
+               path: 'Contact',
+               name: 'Contact',
+               component: () => import('../pages/Contact.vue')
+           },
+           {
+            path: '/:pathMatch(.*)*',
+            name: '404',
+            component: () => import('../pages/NotFound.vue')
+           }
         ]
     },
   ];

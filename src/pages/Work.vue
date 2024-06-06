@@ -8,7 +8,10 @@
 <Portfolio />
 </div>
 
+
+
 <div>
+    <Portfolios />
     <Together />
 </div>
 
@@ -22,6 +25,7 @@
     import Header from "../components/Header.vue";
     import Footer from "../components/Footer.vue";
     import Portfolio from "../components/Portfolio.vue";
+    import Portfolios from "../components/Portfolios.vue";
     import Together from "../components/Together.vue";
 </script>
 

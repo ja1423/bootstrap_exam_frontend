@@ -2,10 +2,10 @@
   <div class="container mx-auto">
     <div class="bg-[#1C1E53] flex flex-col lg:flex-row py-14 items-center justify-between">
       <div class="left_side gap-5 mx-auto text-center lg:text-left">
-        <h1 class="font-bold text-[32px] lg:text-[54px] text-white mb-6 max-w-[300px] lg:max-w-[450px] mx-auto lg:mx-0">
+        <h1 class="font-bold text-[32px] lg:text-[54px] text-white mb-6 max-w-[300px] lg:max-w-[450px]  lg:mx-0">
           Building stellar websites for early startups
         </h1>
-        <p class="text-sm tracking-widest font-medium text-white max-w-[300px] lg:max-w-[500px] mx-auto lg:mx-0">
+        <p class="text-sm tracking-widest font-medium text-white max-w-[300px] lg:max-w-[500px]  lg:mx-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </p>

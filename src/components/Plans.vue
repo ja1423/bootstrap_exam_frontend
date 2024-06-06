@@ -2,145 +2,52 @@
   <div class="container mx-auto">
     <div class="py-12">
       <div>
-        <h1 class="font bold text-4xl text-center">Our Pricing Plans</h1>
+        <h1 class="font-bold text-4xl text-center">Our Pricing Plans</h1>
         <p class="text-sm max-w-[700px] text-center mx-auto text-slate-700">
           When you’re ready to go beyond prototyping in Figma, Webflow is ready
           to help you bring your designs to life — without coding them.
         </p>
       </div>
 
-      <div class="flex">
-        <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC] hover:shadow-xl">
+      <div class="grid grid-cols-1 md:grid-cols-3 justify-center">
+        <div
+          v-for="(plan, index) in plans"
+          :key="index"
+          class="rounded-lg px-8 mx-2 my-12 hover:shadow-xl"
+          :class="plan.bgClass"
+          @mouseover="hover = index"
+          @mouseleave="hover = -1"
+        >
           <div class="flex gap-8 px-6 py-8">
-            <h1 class="font-bold text-2xl">$299</h1>
-            <p class="text-[#2405F2]">Per Design</p>
+            <h1 class="font-bold text-2xl" :class="plan.textColor">{{ plan.price }}</h1>
+            <p :class="plan.subTextColor">{{ plan.designType }}</p>
           </div>
           <div class="px-7 gap-8">
-            <h1 class="font-semibold text-lg">Landing Page</h1>
-            <p class="text-[#282938] text-sm max-w-[300px] my-4">
-              When you’re ready to go beyond prototyping in Figma,
-            </p>
-            <div class="py-8 gap-4">
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p>All limited links</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p>Own analytics platform</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p>Chat support</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer1.svg" alt="" />
-                <p>Optimize hashtags</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer1.svg" alt="" />
-                <p>Unlimited users</p>
+            <h1 class="font-semibold text-lg" :class="plan.textColor">{{ plan.title }}</h1>
+            <p :class="[plan.textColor, 'text-sm max-w-[300px] my-4']">{{ plan.description }}</p>
+            <div class="gap-4">
+              <div v-for="(feature, featureIndex) in plan.features" :key="featureIndex" class="flex gap-4 py-3">
+                <img :src="feature.icon" alt="feature icon" />
+                <p :class="plan.textColor">{{ feature.text }}</p>
               </div>
             </div>
-
-            <div class="justify-center mx-auto">
-              
-                <router-link
-          to="/Home"
-          class="[&.router-link-active]:text-white border bg-[#282938] rounded-full px-8 py-4 text-white hover:bg-white hover:text-[#282938]"
-        >Get started
-        </router-link>
-            </div>
-          </div>
-        </div>
-
-         <div class="rounded-lg px-8 mx-2 my-12 bg-[#1C1E53] hover:shadow-xl">
-          <div class="flex gap-8 px-6 py-8">
-            <h1 class="font-bold text-2xl text-white">$399</h1>
-            <p class="text-[#FCD980] ">Multi Design</p>
-          </div>
-          <div class="px-7 gap-8">
-            <h1 class="font-semibold text-lg text-white">Website Page </h1>
-            <p class="text-[#FFFFFF] text-sm max-w-[300px] my-4">
-              When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.
-            </p>
-            <div class=" gap-4">
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p class="text-white">All limited links</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p class="text-white">Own analytics platform</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p class="text-white">Chat support</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p class="text-white">Optimize hashtags</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p class="text-white">Unlimited users</p>
-              </div>
-            </div>
-
             <div class="justify-center mx-auto my-12">
-              
               <router-link
-          to="/Home"
-          class="[&.router-link-active]:text-white border bg-[#FCD980] rounded-full px-8 py-4 text-white hover:bg-white hover:text-[#282938]"
-          >Get started</router-link
-        >
-            </div>
-          </div>
-        </div>
-
-         <div class="rounded-lg  px-8 mx-2 my-12 bg-[#F4F6FC] hover:shadow-xl">
-          <div class="flex gap-8 px-6 py-8">
-            <h1 class="font-bold text-2xl ">$499 +</h1>
-            <p class="text-[#1C1E53] ">Per Design</p>
-          </div>
-          <div class="px-7 gap-8">
-            <h1 class="font-semibold text-lg">Complex Project </h1>
-            <p class="text-[#282938] text-sm max-w-[300px] my-4">
-              When you’re ready to go beyond prototyping in Figma,
-            </p>
-            <div class=" gap-4">
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p >All limited links</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p >Own analytics platform</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p >Chat support</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p >Optimize hashtags</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p >Unlimited users</p>
-              </div>
-              <div class="flex gap-4 py-3">
-                <img src="/icons/pointer.svg" alt="" />
-                <p>Assist and Help</p>
-              </div>
-            </div>
-
-            <div class="justify-center mx-auto my-4 mb-12 ">
+                v-if="plan.buttonText === 'Get started'"
+                :to="plan.buttonLink"
+                class="[&.router-link-active]:text-white border rounded-full px-8 py-4"
+                :class="plan.buttonClass"
+              >
+                {{ plan.buttonText }}
+              </router-link>
               <router-link
-          to="/Contact"
-          class="[&.router-link-active]:text-white hover:text-gray-400 border bg-[#282938] rounded-full py-3 px-8 text-white"
-          >Contact Us</router-link
-        >
+                v-else
+                :to="plan.buttonLink"
+                class="[&.router-link-active]:text-white hover:text-gray-400 border rounded-full py-3 px-8"
+                :class="plan.buttonClass"
+              >
+                {{ plan.buttonText }}
+              </router-link>
             </div>
           </div>
         </div>
@@ -149,6 +56,71 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const plans = [
+  {
+    price: '$299',
+    designType: 'Per Design',
+    title: 'Landing Page',
+    description: 'When you’re ready to go beyond prototyping in Figma,',
+    features: [
+      { icon: '/icons/pointer.svg', text: 'All limited links' },
+      { icon: '/icons/pointer.svg', text: 'Own analytics platform' },
+      { icon: '/icons/pointer.svg', text: 'Chat support' },
+      { icon: '/icons/pointer1.svg', text: 'Optimize hashtags' },
+      { icon: '/icons/pointer1.svg', text: 'Unlimited users' }
+    ],
+    buttonText: 'Get started',
+    buttonLink: '/Home',
+    bgClass: 'bg-[#F4F6FC]',
+    textColor: 'text-[#282938]',
+    subTextColor: 'text-[#2405F2]',
+    buttonClass: 'bg-[#282938] text-white hover:bg-white hover:text-[#282938]'
+  },
+  {
+    price: '$399',
+    designType: 'Multi Design',
+    title: 'Website Page',
+    description: 'When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.',
+    features: [
+      { icon: '/icons/pointer.svg', text: 'All limited links' },
+      { icon: '/icons/pointer.svg', text: 'Own analytics platform' },
+      { icon: '/icons/pointer.svg', text: 'Chat support' },
+      { icon: '/icons/pointer.svg', text: 'Optimize hashtags' },
+      { icon: '/icons/pointer.svg', text: 'Unlimited users' }
+    ],
+    buttonText: 'Get started',
+    buttonLink: '/Home',
+    bgClass: 'bg-[#1C1E53]',
+    textColor: 'text-white',
+    subTextColor: 'text-[#FCD980]',
+    buttonClass: 'bg-[#FCD980] text-white hover:bg-white hover:text-[#282938]'
+  },
+  {
+    price: '$499 +',
+    designType: 'Per Design',
+    title: 'Complex Project',
+    description: 'When you’re ready to go beyond prototyping in Figma,',
+    features: [
+      { icon: '/icons/pointer.svg', text: 'All limited links' },
+      { icon: '/icons/pointer.svg', text: 'Own analytics platform' },
+      { icon: '/icons/pointer.svg', text: 'Chat support' },
+      { icon: '/icons/pointer.svg', text: 'Optimize hashtags' },
+      { icon: '/icons/pointer.svg', text: 'Unlimited users' },
+      { icon: '/icons/pointer.svg', text: 'Assist and Help' }
+    ],
+    buttonText: 'Contact Us',
+    buttonLink: '/Contact',
+    bgClass: 'bg-[#F4F6FC]',
+    textColor: 'text-[#282938]',
+    subTextColor: 'text-[#1C1E53]',
+    buttonClass: 'bg-[#282938] text-white hover:text-gray-400'
+  }
+];
 
-<style scoped></style>
+let hover = -1;
+</script>
+
+<style scoped>
+/* Add custom styles here if needed */
+</style>

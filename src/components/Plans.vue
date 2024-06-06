@@ -19,7 +19,7 @@
           @mouseleave="hover = -1"
         >
           <div class="flex gap-8 px-6 py-8">
-            <h1 class="font-bold text-2xl" :class="plan.textColor">{{ plan.price }}</h1>
+            <h1 class="font-bold text-4xl" :class="plan.textColor">{{ plan.price }}</h1>
             <p :class="plan.subTextColor">{{ plan.designType }}</p>
           </div>
           <div class="px-7 gap-8">
@@ -43,7 +43,7 @@
               <router-link
                 v-else
                 :to="plan.buttonLink"
-                class="[&.router-link-active]:text-white hover:text-gray-400 border rounded-full py-3 px-8"
+                class="[&.router-link-active]:text-white hover:text-black hover:bg-white  border rounded-full py-4 px-8"
                 :class="plan.buttonClass"
               >
                 {{ plan.buttonText }}

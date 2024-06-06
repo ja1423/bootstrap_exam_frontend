@@ -6,7 +6,7 @@
         <p class="text-sm max-w-[400px] my-6">
           We are always open to discuss your project and improve your online presence.
         </p>
-        <div class="flex flex-col md:flex-row w-full md:w-[517px] bg-[#FCD980]  gap-4 px-3 py-6">
+        <div class="flex flex-col md:flex-row  md:w-[520px] bg-[#FCD980]  gap-4 px-2 py-6 w-[230px]">
           <div class="flex-1">
             <h1 class="font-semibold">Email me at</h1>
             <p>contact@website.com</p>

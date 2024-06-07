@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container ">
     <div class="my-12">
       <div class="md:flex justify-between mb-6 ">
         <h2 class="text-3xl ">View our projects</h2>
@@ -29,7 +29,7 @@
       >
         <div class="flex flex-col gap">
           <div class="max-md:hidden max-w-[400px] h-[400px]"></div>
-          <div class="max-w-1/2 text-left md:px-9 px-2">
+          <div class="max-w-1/2 text-left md:px-9 ">
             <h3 class="md:text-2xl font-semibold mb-4">
               Workhub office Webflow Webflow Design
             </h3>
@@ -60,7 +60,7 @@
     <div class="relative overflow-hidden group">
       <img class="w-full h-full" src="/img/card2.png" alt="" />
       <div
-        class="absolute px-14 bg-gradient-to-br from-[#1C1E536B]/40 to-[#1C1E53] top-0 md:group-hover:w-full md:w-1/2 w-full -left-full h-full text-white group-hover:left-0 duration-1000"
+        class="absolute  bg-gradient-to-br from-[#1C1E536B]/40 to-[#1C1E53] top-0 md:group-hover:w-full md:w-1/2 w-full -left-full h-full text-white group-hover:left-0 duration-1000"
       >
         <div class="flex flex-col">
           <div class="w-60 md:h-32 h-20"></div>
@@ -91,7 +91,7 @@
     <div class="relative overflow-hidden group">
       <img class="w-full h-full" src="/img/card3.png" alt="" />
       <div
-        class="absolute px-14 bg-gradient-to-br from-[#1C1E536B]/40 to-[#1C1E53] top-0 group-hover:w-full w-1/2 -left-full h-full text-white group-hover:left-0 duration-1000"
+        class="absolute  bg-gradient-to-br from-[#1C1E536B]/40 to-[#1C1E53] top-0 group-hover:w-full w-1/2 -left-full h-full text-white group-hover:left-0 duration-1000"
       >
         <div class="flex flex-col">
           <div class="w-60 md:h-40 h-20"></div>

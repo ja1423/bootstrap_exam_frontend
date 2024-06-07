@@ -2,7 +2,7 @@
   <div class="container mx-auto">
     <div class="flex justify-between items-center h-[92px] md:px-0">
       <div class="my-8">
-        <img src="/img/logo.png" alt="" class="w-24 md:w-auto mx-4" />
+        <img src="/img/logo.png" alt="" class="w-24 md:w-auto " />
       </div>
       <div class="md:hidden">
         <button @click="toggleMenu" class="focus:outline-none">
@@ -22,7 +22,7 @@
           </svg>
         </button>
       </div>
-      <div class="hidden md:flex my-7 px-12 ">
+      <div class="hidden md:flex my-7  ">
         <ul class="gap-8 flex">
           <router-link
             to="/home"
@@ -95,7 +95,7 @@
         <router-link
           @click="closeMenu"
           to="/Contact"
-          class="[&.router-link-active]:text-white bg-[#1C1E53] text-white px-7 py-3 rounded-full border my-4 mx-8 hover:bg-white hover:text-[#1C1E53]"
+          class="[&.router-link-active]:text-white bg-[#1C1E53] text-white  py-3 rounded-full border my-4  hover:bg-white hover:text-[#1C1E53]"
           >Contact Us
         </router-link>
       </ul>

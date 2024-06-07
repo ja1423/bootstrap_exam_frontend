@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class=" py-3" src="/icons/qalam.svg" alt="">
+          <img class="py-3" src="/icons/qalam.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Hands-on approach</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam

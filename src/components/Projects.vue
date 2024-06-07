@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto">
     <div class="my-12">
-      <div class="flex justify-between mb-6">
+      <div class="md:flex justify-between mb-6 ">
         <h2 class="text-3xl ">View our projects</h2>
-        <div class="flex gap-2 mx-6">
-          <button>View More</button>
+        <div class="flex gap-3 ">
+          <button class="">View More</button>
           <svg class="my-3"
             xmlns="http://www.w3.org/2000/svg"
             width="1em"

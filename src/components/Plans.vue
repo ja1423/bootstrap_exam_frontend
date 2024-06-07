@@ -19,7 +19,7 @@
           @mouseleave="hover = -1"
         >
           <div class="flex gap-8  py-8">
-            <h1 class="font-bold text-4xl" :class="plan.textColor">{{ plan.price }}</h1>
+            <h1 class="font-bold text-4xl px-6" :class="plan.textColor">{{ plan.price }}</h1>
             <p :class="plan.subTextColor">{{ plan.designType }}</p>
           </div>
           <div class="px-7 gap-8">

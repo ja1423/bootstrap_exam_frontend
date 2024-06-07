@@ -8,12 +8,12 @@
           </li>
         </ul>
       </div>
-      <div class="md:grid grid-cols-2 gap-">
+      <div class="md:grid grid-cols-2 gap-5">
         <div v-for="(template, index) in templates" :key="index">
-          <img class="px-5 py-5 mx-auto" :src="template.image" alt="" />
-          <h1 class="text-3xl font-semibold py-5 px-12">{{ template.title }}</h1>
-          <p class="text-gray-500 text-sm px-12">{{ template.description }}</p>
-          <div class="flex gap-2 mx-6 hover:text-[#2405F2] px-6">
+          <img class=" py-5 w-full" :src="template.image" alt="" />
+          <h1 class="text-3xl font-semibold py-5 ">{{ template.title }}</h1>
+          <p class="text-gray-500 text-sm">{{ template.description }}</p>
+          <div class="flex gap-2 hover:text-[#2405F2]">
             <button>{{ template.buttonText }}</button>
             <svg class="my-3" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
               <path fill="black" fill-rule="evenodd" :d="template.svgPath" clip-rule="evenodd" />

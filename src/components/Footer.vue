@@ -1,7 +1,7 @@
 <template>
-  <div class="container  h-auto    md:p-0">
-    <div class="flex flex-col md:flex-row text-white">
-      <div class=" gap-4 my-16  md:mx-12">
+  <div class="container  h-auto   ">
+    <div class="flex flex-col md:flex-row text-white gap-9">
+      <div class=" gap-4 my-16">
         <img src="/img/logo.png" alt="Company Logo" />
         <p class="text-sm max-w-[400px] my-6">
           We are always open to discuss your project and improve your online presence.

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container">
     <div class="py-12">
       <div>
         <h1 class="font-bold text-4xl text-center">Our Pricing Plans</h1>
@@ -9,16 +9,16 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 justify-center">
+      <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-5">
         <div
           v-for="(plan, index) in plans"
           :key="index"
-          class="rounded-lg px-8 mx-2 my-12 hover:shadow-xl"
+          class="rounded-lg my-12 hover:shadow-xl"
           :class="plan.bgClass"
           @mouseover="hover = index"
           @mouseleave="hover = -1"
         >
-          <div class="flex gap-8 px-6 py-8">
+          <div class="flex gap-8  py-8">
             <h1 class="font-bold text-4xl" :class="plan.textColor">{{ plan.price }}</h1>
             <p :class="plan.subTextColor">{{ plan.designType }}</p>
           </div>
@@ -31,7 +31,7 @@
                 <p :class="plan.textColor">{{ feature.text }}</p>
               </div>
             </div>
-            <div class="justify-center mx-auto my-12">
+            <div class="justify-center my-12">
               <router-link
                 v-if="plan.buttonText === 'Get started'"
                 :to="plan.buttonLink"

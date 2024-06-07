@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto">
-        <div class="md:flex mx-7">
+    <div class="container">
+        <div class="md:flex">
             <div>
                 <h1 class="text-4xl max-w-[500px] font-bold mb-4">Frequently asked questions</h1>
                 <router-link
@@ -10,7 +10,7 @@
         >
         </div>
 
-  <div class="md:w-[1400px] pb-10 mx-8 w-full">
+  <div class="md:w-[1400px] pb-10 mx-4 w-full">
     <div
       v-for="(data, index) in datas"
       :key="index"

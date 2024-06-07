@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container">
     <div class="flex flex-col md:flex-row py-24 gap-12">
       <div class="gap-8  md:w-1/2 w-full">
         <p class="font-semibold text-lg">About us</p>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container">
     <div class="bg-[#1C1E53] flex flex-col lg:flex-row py-14 items-center justify-between">
       <div class="left_side gap-5  text-center lg:text-left">
         <h1 class="font-bold text-[32px] lg:text-[54px] text-white mb-6 max-w-[300px] lg:max-w-[450px]  lg:mx-0">
@@ -11,7 +11,7 @@
         </p>
         <div class="flex flex-col lg:flex-row gap-5   mt-8  lg:items-start">
           <router-link
-            class="hover:bg-[#FCD980] border border-[#FCD980] hover:text-[#1B1C2B] text-[#FCD980] py-2 lg:py-4 px-5 lg:px-14 rounded-full cursor-pointer w-full lg:w-auto text-center"
+            class="hover:bg-[#FCD980] border border-[#FCD980] hover:text-[#1B1C2B] text-[#FCD980] py-2 lg:py-4  lg:px-14 rounded-full cursor-pointer w-full lg:w-auto text-center"
             to="/work"
           >
             View our work
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div class="right_side px-4 lg:px-10 mt-8 lg:mt-0">
+      <div class="right_side lg:px-10 mt-8 lg:mt-0">
         <img src="/img/intro.png" alt="" class="w-full h-auto lg:w-auto lg:h-full"/>
       </div>
     </div>

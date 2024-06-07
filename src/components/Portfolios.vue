@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mb-12">
+  <div class="container mb-12">
     <div>
       <div class="flex">
         <ul class="md:flex gap-6 mx-auto my-12">

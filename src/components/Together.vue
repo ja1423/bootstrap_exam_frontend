@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto lg:mx-auto">
-    <div class="py-10 md:mx-80 gap-6 ">
+  <div class="container lg:mx-auto mb-12">
+    <div class="py-10  gap-6 ">
       <div class="mx-auto ">
         <h2 class="text-3xl font-bold max-w-[500px] text-center my-6">
           Let's build someting great together

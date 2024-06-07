@@ -31,7 +31,7 @@
                 <p :class="plan.textColor">{{ feature.text }}</p>
               </div>
             </div>
-            <div class="justify-center my-12">
+            <div class="justify-center mx-auto my-12">
               <router-link
                 v-if="plan.buttonText === 'Get started'"
                 :to="plan.buttonLink"

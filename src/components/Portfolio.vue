@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto">
-    <div class="mx-auto">
-      <div class="mx-auto py-8">
+  <div class="container">
+    <div class="">
+      <div class=" py-8">
         <p class="text-sm text-center text-slate-700">What we created</p>
         <h1 class="font bold text-4xl text-center">Our Work Portfolio</h1>
         <p class="text-sm max-w-[700px] text-center mx-auto text-slate-700">

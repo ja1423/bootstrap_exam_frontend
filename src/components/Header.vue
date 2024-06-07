@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto">
-    <div class="flex justify-between items-center h-[92px] md:px-0">
+  <div class="container">
+    <div class="flex justify-between items-center h-[92px]">
       <div class="my-8">
         <img src="/img/logo.png" alt="" class="w-24 md:w-auto " />
       </div>

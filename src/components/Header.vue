@@ -22,7 +22,7 @@
           </svg>
         </button>
       </div>
-      <div class="hidden md:flex mx-auto my-7 px-12">
+      <div class="hidden md:flex my-7 px-12 ">
         <ul class="gap-8 flex">
           <router-link
             to="/home"

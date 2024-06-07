@@ -1,5 +1,5 @@
 <template>
-    <div  class=" bg-[#1C1E53]" >
+    <div  class=" bg-[#1C1E53] sticky top-0 left-0 z-40" >
   <Header/>
 </div>
 

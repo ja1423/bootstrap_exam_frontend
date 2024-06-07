@@ -10,7 +10,7 @@
         >
         </div>
 
-  <div class="md:w-[1400px] pb-10 mx-8">
+  <div class="md:w-[1400px] pb-10 mx-8 w-full">
     <div
       v-for="(data, index) in datas"
       :key="index"

@@ -12,7 +12,7 @@
         <div class="flex flex-col lg:flex-row gap-5 mx-0 lg:mx-6 mt-8 items-center lg:items-start">
           <router-link
             class="hover:bg-[#FCD980] border border-[#FCD980] hover:text-[#1B1C2B] text-[#FCD980] py-2 lg:py-4 px-5 lg:px-14 rounded-full cursor-pointer w-full lg:w-auto text-center"
-            to="/works"
+            to="/work"
           >
             View our work
           </router-link>

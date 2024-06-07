@@ -10,7 +10,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-5 py-5 px-4 md:px-12">
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/soat.svg" alt="">
+          <img class=" py-3" src="/icons/soat.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Uses Client First</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
@@ -19,7 +19,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/sms.svg" alt="">
+          <img class=" py-3" src="/icons/sms.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Two Free Revision Round</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
@@ -28,7 +28,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/qalam.svg" alt="">
+          <img class=" py-3" src="/icons/qalam.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Template Customization</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
@@ -37,7 +37,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/sms.svg" alt="">
+          <img class=" py-3" src="/icons/sms.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">24/7 Support</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
@@ -46,7 +46,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/soat.svg" alt="">
+          <img class=" py-3" src="/icons/soat.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Quick Delivery</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam
@@ -55,7 +55,7 @@
           </p>
         </div>
         <div class="bg-white px-6 py-8 hover:shadow-md">
-          <img class="mx-auto py-3" src="/icons/qalam.svg" alt="">
+          <img class=" py-3" src="/icons/qalam.svg" alt="">
           <h1 class="font-semibold text-lg md:text-3xl text-center md:text-left">Hands-on approach</h1>
           <p class="text-[#282938] text-sm py-2 mb-4 text-center md:text-left">
             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam

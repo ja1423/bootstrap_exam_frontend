@@ -4,7 +4,7 @@
             <h1 class="text-center text-4xl font-semibold">Our Blog</h1>
             <div class="py-8 md:grid grid-cols-3 px-4 gap-6">
                 <div v-for="(blog, index) in blogs" :key="index">
-                    <img :src="blog.image" alt="">
+                     <img :src="blog.image" alt="">
                     <p class="text-sm py-3">{{ blog.date }}</p>
                     <h1 class="text-xl font-semibold">{{ blog.title }}</h1>
                     <p class="text-sm py-4">{{ blog.description }}</p>

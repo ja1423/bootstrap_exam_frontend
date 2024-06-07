@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto h-auto md:h-[489px]  p-8 md:p-0">
+  <div class="container mx-auto h-auto   p-8 md:p-0">
     <div class="flex flex-col md:flex-row text-white">
       <div class=" gap-4 my-16 mx-12 md:mx-12">
         <img src="/img/logo.png" alt="Company Logo" />
